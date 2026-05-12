@@ -43,6 +43,9 @@
 - **前端 (UI)**: 基于 `vite-plugin-monkey` 构建的高级油猴脚本，完美嵌入 Boss 直聘界面。
 - **后端 (Server)**: 基于 Spring Boot 3，集成 Spring AI 框架，支持多模型池化管理。
 - **协议层**: 自研 WebSocket Hook，实时拦截并解析 Boss 直聘的 Protobuf 通讯协议。
+- 页面ui脚本说明
+  - 根目录[ai-job-hunting.user.js](ai-job-hunting.user.js)脚本为依赖cdn版本，部分网络可能不可用
+  - 根目录[ai-job-hunting.bundle.user.js](ai-job-hunting.bundle.user.js)为包含依赖版本，无需cdn下载依赖，如果页面反复刷新也不显示ui，可以切换为当前脚本
 
 
 > 随便提一句，云厂商的策略都是老用户与狗不允许入内,加上token的消耗，还不够续费服务器的
